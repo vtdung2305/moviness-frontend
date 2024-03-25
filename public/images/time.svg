@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3803" data-name="Rectangle 3803" width="22" height="22" rx="11" transform="translate(40 1002)" fill="#fcfbfa"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(-40 -1002)" clip-path="url(#clip-path)">
+    <g id="時間経過のアイコン_1" data-name="時間経過のアイコン 1" transform="translate(40.352 1002)">
+      <path id="Path_2476" data-name="Path 2476" d="M207.862,176.8l2.325,1.793a1.461,1.461,0,0,0,2.911-.18c0-.031-.007-.06-.009-.091l3.407-4.03a.568.568,0,1,0-.84-.747l-3.348,3.576a1.413,1.413,0,0,0-1.392.023l-2.189-1.524a.739.739,0,0,0-.865,1.18Z" transform="translate(-200.985 -167.764)" fill="#4b4b4b"/>
+      <path id="Path_2477" data-name="Path 2477" d="M10.648,0a.845.845,0,0,0,0,1.69A8.963,8.963,0,1,1,3.133,5.775l.784.586a.312.312,0,0,0,.491-.185l.528-2.5a.844.844,0,0,0,.112-.529l.239-1.128a.311.311,0,0,0-.453-.338L1.1,3.7a.312.312,0,0,0-.038.524l.714.534A10.648,10.648,0,1,0,10.648,0Z" transform="translate(0)" fill="#4b4b4b"/>
+    </g>
+  </g>
+</svg>

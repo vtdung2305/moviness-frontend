@@ -1,0 +1,1087 @@
+common:
+  loading: 読み込み中
+  loading_login: 少々お待ち下さい
+  required: 必須
+  filed_no_required: %{field}を入力してください。
+  admin: 施設管理者
+  trainer: トレーナー
+components:
+  # language_switcher:
+  #   change_language: 言語を変更
+  # theme_switcher:
+  #   theme: テーマ
+  #   change_theme: テーマを変更
+  menu:
+    home: ホーム
+    institution: 施設
+    trainer: トレーナー
+    trainer_list: トレーナー一覧
+    trainer_registration: トレーナー登録
+    trainer_detail: トレーナー詳細
+    group: グループ
+    group_list: グループ一覧
+    group_detail: グループ詳細
+    group_registration: グループ登録
+    group_delete: グループ削除
+    group_edit: グループ詳細編集
+    group_edit_confirmation_kanrisha: グループ編集確認
+    user: 利用者
+    user_list: 利用者一覧
+    user_registration: 利用者登録
+    movie: 動画
+    video_list: 動画一覧
+    video_detail: 動画詳細
+    video_upload: 動画追加
+    video_confirm: 追加内容確認
+    video_edit: 動画詳細編集
+    video_edit_confirmation: 変更内容確認
+    add_video: 動画追加
+    plan: プラン
+    setting: 設定
+    change_password: パスワード変更
+    logout: ログアウト
+    facitily: 施設一覧
+    plan_list: プラン一覧
+    plan_detail: プラン詳細
+    plan_edit: プラン詳細編集
+    user_detail: 利用者詳細
+    user_edit: 利用者詳細編集
+    user_evaluation_history: 評価詳細
+    user_evaluation_movement: 評価入力
+    facility_detail: 施設詳細
+    trainer_transfer_confirmation: トレーナー非担当確認
+    plan_confirm: 変更内容確認
+    trainer_transfer_confirmation_2: トレーナー担当確認
+    trainer_settings: 設定
+    kanrisha_edit: 設定編集
+    kanrisha_edit_confirmation: 変更内容確認
+    user_delete: 利用者解約
+  login:
+    validate:
+      email:
+        required: メールアドレスを入力してください。
+        invalid: 入力したメールアドレスに誤りがないかご確認ください
+      password:
+        required: パスワードを入力してください。
+        invalid: パスワードの長さは8文字から32文字の間にしてください。
+      errors: ログインに失敗しました。ログイン情報を再確認してください。
+    invalid_form: メールアドレスまたはパスワードが正しくありません。
+    label:
+      email: メールアドレス
+      password: パスワード
+    placeholder:
+      password: 入力してください
+    remember: ログイン情報を保存します
+    button_login: ログイン
+    forgot_password: パスワードを忘れた方はこちら
+    btn_resend: 有効化する
+    title_resend_success: 処理結果
+    msg_verify1: ご登録いただいたアカウントはまだ有効化されておりません。アカウントを利用し、機能にアクセスするためには、以下のボタンをクリックしてください。
+    msg_verify2: アカウントを登録したことを忘れた場合や、有効化リンクが届かなかった場合は、迷惑メールフォルダをご確認いただくか、弊社のサポート部門にご連絡ください。
+    msg_verify_success1: アカウントの有効化リクエストを受け取りました。有効化手続きが完了すると、登録されたメールアドレスに通知が送信されます。有効化手続きの詳細については、メールをご確認ください。
+    msg_verify_success2: メールが届かない場合は、迷惑メールフォルダをご確認いただくか、お使いのメールサービスプロバイダにお問い合わせください。
+  signup:
+    title_form: 施設アカウント登録
+    facility_information: 施設情報
+    required_message: 入力必須項目です。
+    required: 必須
+    facility_name: 施設名
+    facility_name_furigana: 施設名（ふりがな)
+    address: ご住所
+    phone_number: 電話番号
+    fax_number: FAX番号
+    email: メールアドレス
+    president_information: 代表者情報
+    president_name: 代表者名
+    president_name_furigana: 代表者名（ふりがな)
+    contact_information: 担当者情報
+    manager_name: 担当者名
+    manager_name_furigana: 担当者名（ふりがな)
+    account_information: アカウント情報
+    plan: プラン
+    login_id: ログインID
+    password: パスワード
+    privacy_policy: プライバシーポリシー
+    agree_to: に同意する
+    agree: 同意する
+    register: 登録する
+    to_confirmation: 確認画面へ
+    title_confirm: 施設アカウント登録
+    sub_title_confirm: 入力内容をご確認いただき、内容に間違いがなければ「登録する」ボタンをクリックしてください。
+    placeholder:
+      facility_name: 施設名を入力してください
+      facility_name_furigana: ふりがなを入力してください
+      prefectures: 例）東京部
+      address: 住所を入力してください
+      president_name: 山田　太郎
+      president_name_furigana: やまだ　たろう
+      login_id: メールアドレスを入力してください
+      password: 半角英数字8〜32文字
+      confirm_password: 確認のため再入力してください
+    validate:
+      postal_code: 郵便番号を正しく入力してください
+      phone: 携帯電話番号を正しく入力してください
+      password_confirmation: 同じ値を入力してください
+      email: メールアドレスを正しく入力してください
+    label:
+      postal_code: 郵便番号
+      district: 都道府県
+      address: 住所
+  forgot_password:
+    title: パスワードをお忘れの方
+    content: ご登録のメールアドレスを入力後、 『送信』ボタンを押してください。 ご登録のメールアドレスに、 パスワード再設定の案内を送信します。
+    mail_address: メールアドレス
+    button: 送信
+  logout:
+    title: ログアウト確認
+    subtitle: ログアウトしますか？
+    confirm: ログアウト
+    cancel: キャンセル
+  header_lists:
+    number_subject: 検索結果
+    unit_subject: 件
+    unit_total_subject: 件中
+  search_filter:
+    placeholder_keyword: キーワードで検索
+    btn_primary_name: 検索
+    btn_second_name: Ok
+    sort_list:
+      desc: 登録日（新しい順）
+      oldest_first: 登録日（古い順）
+      asc: 五十音順
+      alphabet: グループ順
+  input:
+    placeholder_input: 入力してください
+  button:
+    next: 次へ
+    edit: 修正
+    register: 登録
+    addition: 追加
+    reselect_the_file: ファイルを選びなおす
+    close: 閉じる
+    save: 保存
+    search: 検索
+    update: 編集
+    confirmation: 確認
+    delete: 削除
+    cancel: キャンセル
+    create: 作成
+    back: 戻る
+  item_user:
+    level: 機能レベル： %{level}
+  modal:
+    update_user:
+      medical_record_number: カルテ番号
+      level: 機能レベル
+      name: 名前
+      surname: 姓
+      given_name: 名
+      name_furigana: 名前（ふりがな）
+      medical_history: 既往歴
+      remarks: 備考
+      date_of_birth: 生年月日
+      age: 歳
+    delete_group:
+      title: グループ削除
+      content: グループを削除しますか？
+    signup_alert:
+      success: 登録が完了しました。登録したメールアドレス宛に登録完了メールをお送りしていますのでご確認ください。
+    plan_detail:
+      heading: 更新依頼詳細
+      contract_date: 契約日
+      plan: プラン
+      period_of_use: 利用期間
+      use_period: 利用期限
+      request_amount: 請求額
+      status: ステータス
+      content: 依頼内容
+      unit: 万円
+      receipt: 領収書
+    video_list:
+      heading: 動画一覧
+    user_list:
+      heading: 未設定ユーザーから追加
+    delete_user:
+      msg_confirm_leave_group: この利用者の解約を行ってもよろしいでしょうか？
+      btn_delete: はい
+      btn_cancel: いいえ
+      msg_deleted_group: この利用者の解約を行いました。
+    plan_upgrade:
+      heading: 更新依頼確認
+      policy: 上記の内容で更新依頼を行います。よろしいですか？
+    suspend_facility:
+      heading: アカウントを停止する
+      policy: 本当にアカウントを停止してよろしいですか？
+    limit_date_section:
+      heading: 期間選択制限
+      content: 一ヶ月以上は選択できません。
+  checkpoint_list_basic:
+    title: チェックポイント
+    unit: 件
+  footer:
+    rule: 利用規則
+    rule_desc: 特定商取引に基づく表示
+    privacy_policy: プライバシーポリシー
+    user_guide: ご利用ガイド
+    terms_of_service: 利用規約
+    specified: 特定商取引法に基づく表示
+    operating_company: 運営会社
+    inquiry: お問い合わせ
+    copyright: Copyright ©  All Rights Reserved.
+    video_copyright: Produced by うごきのクリニック
+  group_card:
+    no_set: 未設定
+  video:
+    item_list:
+      checkpoint_number: チェックポイント
+      checkpoint_number_unit: つ
+  datepicker:
+    year: 年
+    month: 月
+    day: 日
+  upload_avatar:
+    max_size: 最大アップロードサイズ：10Mb
+    invalid_type: ファイル形式エラーで画像をアップロードできません。
+  user_infomation_evaluation:
+    group_name: グループ名
+    trainer_name: トレーナー名
+    age_label: 年齢
+    medical_history: 既往歴
+pages:
+  '404':
+    title: ページが見つかりません
+  index:
+    title: Moviness
+    tmp: 開発しています。
+  blank:
+    nav: 空欄
+    title: 空白ページ
+    description: これは空白のページです
+    just_blank_page_with_title: タイトルのある空白のページ
+  post:
+    nav: 役職
+    title: 役職
+    description: これは投稿ページです
+  test:
+    nav: テスト
+    title: テスト
+    description: これはテストページです
+    counter: カウンター
+    increment: インクリメント
+    decrement: デクリメント
+    reset: リセット
+    identity: 身元
+    full_name: フルネーム
+  getting-started:
+    nav: 入門
+    title: 入門
+    description: これは入門ページです
+  setting:
+    nav: 設定
+    title: 設定
+    description: 設定ページです
+    tab_info: 基本情報
+    tab_plan: プラン
+    current_plan: 利用中のプラン
+    plan_name: プラン名
+    expiration_date: 期限
+    remaining_day: 残り日数
+    update_request: 更新依頼
+    plan_history: プラン更新履歴
+    contract_date: 契約日
+    plan: プラン
+    use_period: 利用期限
+    status: ステータス
+    see_more: もっと見る
+    approve: 承認
+    request: 更新依頼
+    reject: 拒否
+    stop: 停止
+    msg_upgrage_plan: 現在、%{planName}プランを使用しており、残り期間は%{number}日です。他のプランに変更してもよろしいでしょうか？
+    msg_processing_plan: 他のプランの更新依頼を行っています。プラン更新履歴をご確認ください。
+    btn_update: 更新
+    tooltip_trainer: トレーナー{number}人まで
+    tooltip_group: グループ数{number}個まで
+    tooltip_member: 施設利用者{number}人まで
+    group_unit: 個
+    sections:
+      validate_username:
+        title: github プロファイルを検証する
+        description: github ユーザー名を入力し、ボタンをクリックして検証します。
+        footer: 詳しくはこちら
+        footer_button: 検証
+        footer_link: github ユーザー api
+      bot_id:
+        title: ボットid
+        description: これがボット id です。
+        footer: ボットと対話するときに使用されます。
+      protection_spam:
+        title: スパム保護
+        description: 有効に切り替えて、赤い枠を削除します
+        footer: 有効にすると、コメントをスパムから保護します
+      advanced_enable_advanced:
+        title: 詳細設定を有効にする
+        description: 詳細設定を有効にして設定を変更できます
+      advanced_dir_listing:
+        title: ディレクトリ一覧
+        description: ディレクトリ内にインデックス ファイルが存在しない場合は、ディレクトリの内容が表示されます。
+  dashboard:
+    nav: ダッシュボード
+    title: ダッシュボード
+    expiration_plan_1: お客様のプランの有効期限がまもなく終了します。
+    expiration_plan_2: 現在契約中のプランは%{plan_expire_at}に有効期限が切れます。
+    expiration_plan_3: プランの変更・更新は
+    expiration_plan_4: こちら
+    expiration_plan_5: からご依頼ください。
+    expiration_plan_6: 施設の管理者にご連絡ください。
+    contract_plan: 契約中のプラン
+    remaining_day: 残り
+    number_of_trainers: トレーナー数
+    number_of_groups: グループ数
+    number_of_members: 利用者数
+    number_of_facilities: 施設数
+    view_more: もっと見る
+    title_group: 未設定グループ
+    title_group_has_number: 未設定グループ（%{number})
+    tooltip_group: トレーナーによる管理されていないグループです。
+    title_member: 未設定利用者
+    title_member_has_number: 未設定利用者 (%{number})
+    tooltip_member: トレーナーによる管理されていない利用者です。
+    title_number_of_user: 利用者数の推移
+    tooltip_plan: 各施設から依頼されたプラン更新の一覧です。行をクリックして詳細を表示し、承認・非承認を行ってください。
+    title_plan: プラン更新依頼一覧
+    title_plan_has_number: プラン更新依頼一覧 (%{number})
+    name_of_facility: 施設名
+    request_content: 依頼内容
+    request_date: 依頼日
+    number_plan_subscriptions: プラン契約数
+    tooltip_facility_content: これまでに登録された施設の数です。
+    tooltip_trainer_content: トレーナーの状態を問わずこれまでに作成されたトレーナーの数です。
+    tooltip_member_content: 利用者の状態を問わずこれまでに作成された利用者の数です。
+    index:
+      nav: 家
+      title: 家
+    guide:
+      content: 初めてご利用される方へ
+      button: ご利用ガイド
+  shinseido:
+    video:
+      title: 動画一覧
+    video_detail:
+      title: 膝を高く上げる
+      status: やり方
+      edit: 編集
+    video_upload:
+      title: 動画追加
+      name: タイトル
+      placeholder_name: 例：膝を高く上げて止める
+      upload: 動画アップロード
+      from_file: デバイスからアップロード
+      from_youtube: Youtubeリンクを紐付け
+      button_import: ファイルを選ぶ
+      placeholder_import_yotube: URL
+      sub_task: やり方
+      placeholder_subtak: 入力してください
+      checkpoint: チェックポイント（注意するところ）
+      sub_task_checkpoint: 1つずつ追加してください。
+      add_checkpoint: 追加
+      submit: 確認
+      size_file: 100MB以内
+      placeholder_add_checkpoint: 例：上げたひざを下げない
+      submit_add_checkpoint: 追加
+      submit_remove_checkpoint: 削除
+      error_maxsize: 最大アップロードサイズ：100Mb
+      error_message: 入力必須項目です
+      upload_success: %{field}という動画をアップロードしました。
+      upload_image: サムネイルアップロード
+      sub_upload_image: 動画の内容がわかる画像をアップロードしてください。
+      text_size_upload_image: 推奨サイズ：横1280×縦720px
+      text_file_upload_image: 画像形式：png/jpg
+      show_image: サムネイル
+      thumbnails_empty: サムネイルを選択してください
+    video_confirm:
+      title: 追加内容確認
+      name: タイトル
+    video_edit:
+      title: 動画詳細編集
+      success_message: という動画を更新しました。
+      upload: 動画
+      button_import: ファイルを選びなおす
+      error_maxsize: 最大アップロードサイズ：100Mb
+    video_edit_confirmation:
+      title: 変更内容確認
+    filter:
+      all: 全て
+  # others:
+  #   learn_more: もっと詳しく知る
+  #   copy: コピー
+  #   enabled: 有効
+  #   disabled: 無効
+  group_list:
+    title: グループ一覧
+    status: ステータス
+    empty_select: 選択なし
+    trainer_name: トレーナー名
+    placeholder_search: グループ名 で検索
+    search_results: 検索結果
+    newest_first: 登録日（新しい順）
+    oldest_first: 登録日（古い順）
+    syllabary_order: 五十音順
+    all: 全て
+    setting: 設定
+    not_set: 未設定
+    no_data: データなし
+    no_data_list: データがありません
+    manager: 担当
+    not_manager: 非担当
+  trainer_list:
+    title: トレーナー一覧
+    no_set: 未設定
+    people: 人
+    male: 男性
+    woman: 女性
+    groups: 施設名
+    trainer_card:
+      group: グループ
+      status: 非担当
+    no_data: データがありません。
+    gender_others: その他
+  group_registration:
+    title: グループ登録
+    description: グループ作成
+    required: 必須
+    group_name: グループ名
+    group_content: 概要
+    trainer_in_charge: 担当トレーナー
+    please_choose: 選んでください
+    noti: 登録されたグループの数が上限に達しました。
+    suggest: 新たに登録する場合は、すでに登録されたグループを削除してください。
+    validate:
+      name:
+        required: グループ名を入力してください。
+      maxlength: このテキストは%{length}文字以下を入力してください
+      trainer:
+        required: 担当トレーナーを選んでください。
+  group_registration_confirmation:
+    title: 登録内容確認
+    sub_title: グループ情報
+    user_info: 利用者情報
+    register_later: あとで登録する
+    register_from_file: ファイルから登録
+    author: 作成者
+    created_date: 作成日
+    date: %{year}年%{month}月%{day}日
+    edit: 編集
+    trainer_information: トレーナー情報
+    trainer_name: トレーナー名
+    mail_address: メールアドレス
+    created_a_group: グループを作成しました
+    max_group: 作成できるグループの数を超えるのでプランの内容をご確認ください
+    back_group_list: グループ一覧ページに戻る
+  group_edit:
+    title: グループ詳細編集
+    title_form: グループ情報
+    addition: 入力して追加
+    addition_user: 未設定利用者から追加
+    edit: 保存
+    cancel: 削除
+    user_list: 利用者一覧
+    message_confirm_edit_groups: このグループ情報を変更してよろしいですか？
+    message_confirm_success: このグループ情報で変更しました。
+  group_edit_confirmation:
+    sub_title: グループ情報
+    group_name: グループ名
+    group_content: 概要
+    author: 作成者
+    created_date: 作成日
+    last_updated: 最終更新日
+    trainer_info: トレーナー情報
+    trainer_name: トレーナー名
+    trainer_email: メールアドレス
+    save: 保存
+  group_delete:
+    title: グループ削除確認
+    warning: 削除すると、利用者のステータスは「未設定」になります。未設定になった利用者はそれぞれ一覧から確認できます。
+    deleted_the_group: グループを削除しました。
+  user_registration:
+    title: 利用者登録
+    confirm_title: 登録内容確認
+    title_form: 利用者情報
+    record: カルテ番号
+    level: 機能レベル
+    required: 必須
+    default_level: 選んでください
+    name: 名前
+    name_furigana: ふりがな
+    last_name: 姓
+    placeholder_last_name: 山田
+    first_name: 名
+    placeholder_first_name: 太郎
+    furigana_name: 名前（ふりがな）
+    placeholder_last_furigana_name: やまだ
+    placeholder_first_furigana_name: たろう
+    postal_code: 郵便番号
+    address: 住所
+    placeholder_address: 番地まで入力してください
+    building_name: 建物名
+    placeholder_building_name: 入力してください
+    birth_day: 生年月日
+    age: 年齢
+    year: 年
+    month: 月
+    day: 日
+    gender: 性別
+    gender_default: 選んでください
+    phone_number: 携帯電話
+    medical_history: 既往歴
+    placeholder_medical_history: 入力してください
+    memo: 備考
+    placeholder_memo: 緊急連絡先など
+    email: メールアドレス
+    trainer_info: トレーナー情報
+    group_name: グループ名
+    group_name_default: 選んでください
+    note: グループを選択しない場合はステータスが「未設定」になります。
+    confirmation: 確認
+    fix: 修正
+    register: 登録
+    message_confirm: この利用者を登録しますか？
+    message_success: 利用者を作成しました。
+    validate:
+      level: '機能レベルを入力してください。'
+      last_name: '姓を入力してください。'
+      first_name: '名を入力してください。'
+      last_furigana_name: '姓(ふりがな)を入力してください。'
+      first_furigana_name: '名(ふりがな)を入力してください。'
+      year: '年を選んでください。'
+      month: '月を選んでください。'
+      day: '日を選んでください。'
+      gender: '性別を選んでください。'
+      medical_history: '既往歴を入力してください。'
+      trainer_id: 'グループ名を入力してください。'
+    max_member: 登録できる利用者の数を超えるのでプランの内容をご確認ください
+  user_edit:
+    title: 利用者詳細編集
+    confirm_title: 登録内容確認
+    title_form: 利用者情報
+    record: カルテ番号
+    level: 機能レベル
+    required: 必須
+    default_level: 選んでください
+    name: 名前
+    name_furigana: ふりがな
+    last_name: 姓
+    placeholder_last_name: 山田
+    first_name: 名
+    placeholder_first_name: 太郎
+    furigana_name: 名前（ふりがな）
+    placeholder_last_furigana_name: やまだ
+    placeholder_first_furigana_name: たろう
+    postal_code: 郵便番号
+    address: 住所
+    placeholder_address: 番地まで入力してください
+    building_name: 建物名
+    placeholder_building_name: 入力してください
+    birth_day: 生年月日
+    age: 年齢
+    year: 年
+    month: 月
+    day: 日
+    gender: 性別
+    gender_default: 選んでください
+    phone_number: 携帯電話
+    medical_history: 既往歴
+    placeholder_medical_history: 入力してください
+    memo: 備考
+    placeholder_memo: 緊急連絡先など
+    email: メールアドレス
+    user_id: ユーザーID
+    trainer_info: トレーナー情報
+    group_info: グループ情報
+    group_name: グループ名
+    group_name_default: 選んでください
+    note: トレーナー・グループを選択しない場合はステータスが「未設定」になります。
+    note_trainer: グループを選択しない場合はステータスが「未設定」になります。
+    confirmation: 確認
+    fix: 修正
+    register: 登録
+    message_confirm: この利用者の情報を変更してよろしいですか？
+    message_success: この利用者の情報で変更しました。
+    cancel: 解約
+    age_value: 歳
+    title_modal: 情報変更
+    not_set: 未設定
+    number_of_users: 利用者数：
+    man: 人
+    validate:
+      level: '機能レベルを選んでください。'
+      last_name: '姓を入力してください。'
+      first_name: '名を入力してください。'
+      last_furigana_name: '姓(ふりがな)を入力してください。'
+      first_furigana_name: '名(ふりがな)を入力してください。'
+      year: '年を選んでください'
+      month: '月を選んでください。'
+      day: '日を選んでください。'
+      gender: '性別を選んでください。'
+      medical_history: '既往歴を入力してください。'
+      trainer_id: 'トレーナー名を選んでください。'
+  user_edit_confirmation:
+    title: '編集内容確認'
+  user_edit_info:
+    title: 設定編集
+    title_button: 確認
+  user_edit_info_confirmation:
+    title: 変更内容確認
+  group_detail:
+    title: グループ詳細
+    group_info: グループ情報
+    group_name: グループ名
+    group_content: 概要
+    author: 作成者
+    created_date: 作成日
+    last_updated: 最終更新日
+    trainer_information: トレーナー情報
+    trainer_name: トレーナー名
+    mail_address: メールアドレス
+    user_list: 利用者一覧
+    people: 人
+    male: 男性
+    woman: 女性
+    no_set: 未設定
+    gender_others: その他
+    self_charge: 自分が担当のグループです。
+    no_data: データがありません。
+    facility_information: 施設情報
+    facility_name: 施設名
+    year: 年
+    month: 月
+    day: 日
+    facility_link: もっと見る
+  facility:
+    title: 施設一覧
+    status:
+      label: ステータス
+      show_all: 全て
+      no_deadline: 無制限
+      has_deadline: 期限付き
+      expired: 期限切れ
+      requesting_renew: 更新依頼
+    plan: プラン
+    empty_select: 選択なし
+    search: 検索
+    placeholder_search: 施設名で検索
+    search_results: 検索結果
+    subject: 件
+    out_of: 件中
+    newest_first: 登録日（新しい順）
+    oldest_first: 登録日（古い順）
+    syllabary_order: 五十音順
+  trainer_registration:
+    title: トレーナー登録
+    email: メールアドレス
+    required: 必須
+    name: 名前
+    surname: 姓
+    given_name: 名
+    name_furigana: 名前（ふりがな）
+    post_code: 郵便番号
+    address: 住所
+    building_name: 建物名
+    gender: 性別
+    please_choose: 選んでください
+    mobile_phone: 携帯電話
+    remarks: 備考
+    male: 男性
+    female: 女性
+    no_set: 未設定
+    gender_others: その他
+    birthday: 生年月日
+    placeholder_surname: 山田
+    placeholder_given_name: 太郎
+    placeholder_surname_kana: やまだ
+    placeholder_given_name_kana: たろう
+    placeholder_post_code: '0000000'
+    placeholder_address: 番地まで入力してください
+    placeholder_building_name: 入力してください
+    placeholder_mobile_phone: '00000000000'
+    placeholder_remarks: 緊急連絡先など
+    validate:
+      email:
+        required: メールアドレスを入力してください。
+        invalid: 入力したメールアドレスに誤りがないかご確認ください
+      lastname:
+        required: 姓を入力してください。
+      firstname:
+        required: 名を入力してください。
+      lastname_kana:
+        required: 姓(ふりがな)を入力してください。
+      firstname_kana:
+        required: 名(ふりがな)を入力してください。
+      gender:
+        required: 性別を選んでください。
+      year:
+        required: 年を選んでください。
+      month:
+        required: 月を選んでください。
+      day:
+        required: 日を選んでください。
+      postal_code: 郵便番号を正しく入力してください
+      phone: 携帯電話番号を正しく入力してください
+    noti: 登録されたトレーナーの数が上限に達しました。
+    suggest: 新たに登録する場合は、すでに登録されたトレーナーを非担当にしてください。
+  trainer_registration_confirmation:
+    title: 登録内容確認
+    email: メールアドレス
+    name: 名前
+    name_kana: 名前（ふりがな）
+    address: 住所
+    address_symbol: 〒
+    birthday: 生年月日
+    gender: 性別
+    mobile_phone: 携帯電話
+    remarks: 備考
+    note: 登録すると代表者のメールアドレスにユーザー名とパスワードを送信します。
+    create_account: アカウント作成
+    content_dialog_confirm: %{email}のアカウントを作成しますか？
+    created_account: トレーナーのアカウントの作成が完了しました。ユーザー名とパスワードを含む内容はメールの受信トレイまたはスパムフォルダーをご確認ください。
+    max_trainer: 作成できるトレーナーの数を超えるのでプランの内容をご確認ください
+  trainer_detail:
+    title: トレーナー詳細
+    personal_information: 個人情報
+    group_in_charge: 担当グループ（%{total}）
+    email: メールアドレス
+    name: 名前
+    name_furigana: 名前（ふりがな）
+    address: 住所
+    birth_day: 生年月日
+    gender: 性別
+    situation: 状態
+    remarks: 備考
+    facility_name: 施設名
+    account: アカウント
+    account_status: アカウント状態
+    last_login: 最終ログイン
+    see_more: もっと見る
+    phone: 携帯電話
+    note: 非担当にすると、担当していた利用者・グループのステータスは「未設定」になります。未設定になった利用者・グループはそれぞれ一覧から確認できます。
+    title_button: 非担当
+    date: %{year}年%{month}月%{day}日%{hour}時%{minute}分
+    un_block: 解除
+    date_block: ロックされた日時
+    title_button_non_responsible: 非担当
+    title_button_responsible: 担当
+    update: 編集
+    invalid: 無効
+    valid: 有効
+    block: ロック
+    title_unblocked: このアカウントのロックを解除してもよろしいですか？
+    message_unblocked_success: アカウントのロックが解除されました。
+    message_trainer_leaving_success: トレーナーの担当解除の処理が完了しました。
+    title_change_status: トレーナー状態確認
+    message_confirm_change_status: 非担当トレーナーの解除処理を行ってもよろしいですか？
+    message_success_change_status: トレーナーの非担当解除の処理が完了しました。
+    title_button_change_status: 担当
+    title_number_group_user: グループ数と利用者数
+  trainer_settings:
+    title: 設定
+    title_shinseido: プロフィール
+    button_edit: 編集
+    message_confirm: この情報を変更してよろしいですか？
+    message_success: この情報で変更しました。
+  user_list:
+    status: ステータス
+    level: 機能レベル
+    trainer: トレーナー名
+    placeholder_search: 利用者名 / カルテ番号 / グループ名 で検索
+    export_csv: CSV出力
+    all: 全て
+    not_set: 未設定
+    set: 設定済み
+    cancel: 解約
+    facility: 施設名
+    button_dowload_csv: 出力
+    title: CSVファイルの保存
+    content: CSVファイルで保存してよろしいですか?
+  plan_list:
+    video_count: ビデオ数
+    time_plan_duration: 期間
+    trainer_count: トレーナー
+    member_count: 利用者数
+    group_count: グループ数
+    plan_price: 料金
+    status: '非公開'
+    unlimited: 無制限
+    free: 無料
+    desc1: 同じプランで継続する場合は、契約中のプランを選択してください。
+    desc2: プランを変更する場合は、ご希望のプランを選択してください。
+    contract: 契約中
+  verify:
+    message_success: 登録完了
+    message_suggest_login: 本登録が完了しました。下記ボタンより改めてログインをお願いします。
+    open: ログイン画面を開く
+  user_detail:
+    list_video: 動画
+    info_user: 個人情報
+    grap_video: グラフ
+    date_time: 最終評価日
+    number_of_evaluations: 評価回数
+    rating_input: 評価入力
+    evaluation_details: 評価詳細
+    function_level: 機能レベル
+    record: カルテ番号
+    name: 名前
+    name_furigana: 名前（ふりがな）
+    group: グループ
+    trainer_count: トレーナー
+    status: ステータス
+    address: 住所
+    mobile_phone: 携帯電話
+    gender: 性別
+    birth_day: 生年月日年
+    age_label: 年齢
+    medical_history: 既往歴
+    remarks: 備考
+    email: メールアドレス
+    address_symbol: 〒
+    year: 年
+    month: 月
+    day: 日
+    age: 歳
+    times: 回
+    update: 編集
+    title_grap: 動画別評価回数
+    title_video: 動画タイトル
+    noti: が担当している利用者です。
+    message_tooltip: 利用者情報を修正できるのは、施設の管理者と担当のトレーナーのみです。
+  plan_detail:
+    youtube: YouTube
+    check_point: チェックポイント：
+    txt_public: プランは公開済みのため、修正できません。
+    btn_edit_plan: プラン修正
+    plan_public: 公開
+    plan_private: 非公開
+    note_1: 本プラン内容で更新する場合は、
+    note_2: こちら
+    note_3: から更新してください。
+  evaluation_history:
+    detail_infomation: 詳細情報
+    link: もっと見る
+    group_name: グループ名
+    trainer_name: トレーナー名
+    age_label: 年齢
+    medical_history: 既往歴
+    recent_evaluation: 直近の評価
+    achievement: 達成度
+    evaluation_date: 評価日
+    rater: 評価者
+    comment: コメント
+    evaluation_comparison: 評価比較
+    evaluation_transition: 評価推移
+    btn_pdf: PDF出力
+    btn_rating: 評価入力
+    achievements: 達成数
+    rating_history: 評価履歴
+    msg_heading_pdf: PDFファイルの保存
+    msg_body_pdf: PDFファイルで保存してよろしいですか?
+  evaluation_movement:
+    rating_input: 評価入力
+    rating_input_edit: 評価編集
+    evaluation_date: 評価日
+    evaluation_user: 評価者
+    check_point: チェックポイント
+    comment: コメント
+    msg_evaluation_confirm: この評価内容で記録してよろしいですか？
+    msg_evaluation_confirm_edit: %{date}の評価内容で編集してよろしいですか？
+    msg_evaluation_created: この評価内容で記録しました。
+    btn_add: 記録
+    btn_edit: 編集
+    unit: 'コ'
+    physical_change: 身体変化
+    psychological_change: 心理変化
+    physical_list:
+      label_1: 1点：体調や症状が明らかに悪化した。
+      label_2: 2点：体調や症状が悪化した。
+      label_3: 3点：時々悪化した部分を感じる。
+      label_4: 4点：体調や症状が悪化した気がするが、わからない。
+      label_5: 5点：特に体調や症状に変わりはない。
+      label_6: 6点：体調や症状がよくなった気はするが、まだよくわからない。
+      label_7: 7点：体調や症状が改善した所もあるが、変わっていない所もまだある。
+      label_8: 8点：概ね体調や症状は改善した。
+      label_9: 9点：体調や症状が改善した。
+      label_10: 10点：体調や症状が明らかに改善した。
+    psychological_list:
+      label_1: 1点：気分が全く晴れない。情緒が明らかに不安定になった。
+      label_2: 2点：気分が晴れなくなった。情緒が不安定になった。
+      label_3: 3点：気分や情緒が不安定になった所を感じる。
+      label_4: 4点：気分や情緒が不安定になった気がするが、わからない。
+      label_5: 5点：気分や情緒に変わりはない。
+      label_6: 6点：気分や情緒も安定した気はするが、まだよくわからない。
+      label_7: 7点：気分や情緒は安定しているが、変わっていない所もある。
+      label_8: 8点：概ね気分が晴れた。情緒も安定した。
+      label_9: 9点：気分が晴れた。情緒が安定した。
+      label_10: 10点：気分が晴れた。情緒が明らかに安定した。
+    validate:
+      physical_point:
+        required: 身体変化を入力してください。
+      psychological_point:
+        required: 心理変化を入力してください。
+  facility_detail:
+    name: 施設名
+    name_furigana: 施設名（ふりがな）
+    facility_address: 施設住所
+    information: 施設情報
+    phone: 電話番号
+    fax: FAX
+    mail_adrress: メールアドレス
+    representative: 代表者
+    representative_name: 代表者名
+    representative_name_furigana: 代表者名（ふりがな)
+    address: 住所
+    representative_phone: 携帯電話
+    manager: 担当者
+    person_in_charge: 担当者名
+    person_in_charge_furigana: 担当者名（ふりがな)
+    account: アカウント
+    last_login: 最終ログイン
+    create_date: 作成日
+    plan: プラン
+    current_plan: 利用中のプラン
+    expiration_date: 有効期限
+    plan_request: プラン更新依頼
+    update_request: 更新依頼
+    renewal_request_date: 更新依頼日
+    confirm_payment: 入金を確認後、プランを変更します。
+    plan_change_history: プラン変更履歴
+    date: 日付
+    plan_change: プラン変更
+    expired: 期限切れ
+    situation: 状態
+    account_suspension: アカウント停止
+    msg_approve: このプラン更新依頼を承認してよろしいですか?
+    msg_reject: このプラン更新依頼を否認してよろしいですか?
+    msg_success: 更新依頼の状態が更新されましたので、「プラン更新依頼」をご確認いただけますようお願い申し上げます。
+    msg_inactived: アカウントが停止されました。このアカウントの状態をご確認ください。
+    facility_valid: 有効
+    facility_invalid: 無効
+    facility_registrion_first: サービスを初めて登録する施設です。
+  facility_edit:
+    tooltip_email_content: このメールアドレスを使ってログインできます
+    validate:
+      name: 施設名を入力してください。
+      name_kata: 施設名（ふりがな）を入力してください。
+      zip1: 郵便番号を入力してください。
+      address: 住所を入力してください。
+      tel: 電話番号を入力してください。
+      president_first_name: 代表者名を入力してください。
+      president_first_name_kata: 担当者名（ふりがな）を入力してください。
+      manager_first_name: 担当者名を入力してください。
+      manager_first_name_kata: 担当者名（ふりがな）を入力してください。
+  plan_edit:
+    placeholder_content: 入力してください
+    note: ドラッグ＆ドロップで順番を入れ替えられます
+    msg_confirm_delete_video: %{title}という動画を削除してよろしいですか？
+    content: 概要
+    msg_confirm_save_draft: プランの内容を非公開して保存しました。
+    title_delete_video: 動画の削除
+  plan_confirm:
+    message_confirm_save: 公開すると修正できなくなります。公開してよろしいですか？
+    message_plan_success: %{field}は公開しました。
+    btn_submit: 公開
+  user_delete:
+    heading: 解約内容確認
+    title_info: 利用者情報
+    trainer_info: トレーナー情報
+    trainer_name: トレーナー名
+    group_name: グループ名
+    policy_delete: 解約すると、利用者のステータスは「解約」になります。
+    btn_cancel: 解約
+  forgot_password:
+    message_error: 申し訳ございませんが入力したメールは当システムに存在しません。
+    message_success: パスワードリセット用のメールを送信しました。メールに記載されたURLからパスワードリセットの手続きを行ってください。
+  change_password:
+    required: 必須
+    placeholder: 入力してください
+    current_password: 現在のパスワード
+    new_password: 新しいパスワード
+    re_new_password: 新しいパスワード（再入力）
+    title_modal: パスワード変更確認
+    content_shinseido: システムの管理者パスワードを変更します。変更後は自動的にログオフします。よろしいですか？
+    content_kanrisha: 施設の管理者パスワードを変更します。変更後は自動的にログオフします。よろしいですか？
+    content_trainer: トレーナーパスワードを変更します。変更後は自動的にログオフします。よろしいですか？
+    btn_change_password: はい
+    btn_cancel: いいえ
+    validate:
+      current_password: 現在のパスワードを入力してください。
+      new_password: 新しいパスワードを入力してください。
+      re_new_password: 新しいパスワード（再入力）を入力してください。
+  forgot-password:
+    title: パスワード再設定
+    sub-title: 新しいパスワードを入力し、「パスワードを再設定する」ボタンをクリックしてください。
+    email: メールアドレス
+    password: 新パスワード
+    password_confirmation: 新パスワード（確認）
+    placeholder_password: 半角英数字8～32文字
+    placeholder_password_confirmation: 確認のため再入力してください
+    button: パスワードを再設定する
+    title_success: パスワード再設定完了
+    note1: パスワードの再設定が完了しました。
+    note2: 新しいパスワードで再度ログインしてご利用ください。
+    validate:
+      password: 新パスワードを入力してください。
+      password_confirmation: 新パスワード（確認）を入力してください。
+  plan_upgrade:
+    price: 万円/年
+    placeholder_content: 希望などありましたら入力してください。
+    btn_submit: 更新依頼
+    note: スタンダードプランの動画は以下になります。内容をご確認ください。
+    msg_upgrade_success: 更新依頼を受けました。処理中なのでお少々お待ちくだだい。
+    msg_downgrade_trainer: 契約中の%{plan_name}プランで登録されたトレーナーの数は%{num1}人ですが、更新したいプランでは最大で%{num2}のトレーナーを登録できます。ご確認ください。
+    msg_downgrade_member: 契約中の%{plan_name}プランで登録された利用者の数は%{num1}人ですが、更新したいプランでは最大で%{num2}の利用者を登録できます。ご確認ください。
+    msg_downgrade_group: 契約中の%{plan_name}プランで登録されたグループの数は%{num1}グループですが、更新したいプランでは最大で%{num2}のグループを登録できます。ご確認ください。
+  purchase_reminder:
+    title: 入金のご案内
+    email: 連絡先
+    note1: 選択いただいた%{plan}は有料プランとなります。ご入金の案内を送付しますので、下記のアドレスに連絡をお願いいたします。
+    note2: ※ご利用開始は、入金確認後になります。
+banners:
+  welcome: こんにちは、%{app_name} へようこそ!
+others:
+  learn_more: もっと詳しく知る
+  copy: コピー
+  enabled: 有効
+  disabled: 無効
+  inquiry: お問い合わせ
+  login: ログイン
+  here: こちら
+  member_registration: 会員登録
+  empty: ー
+  upload_error: アップロード中にエラーが発生しました。もう一度お試しください
+  no_value: 評価なし
+  book: 本
+  date: 日
+  people: 人まで
+  pieces: 個まで
+  money: 円
+  month: '月'
+  unit: 'つ'
+  no_data: データがありません。
+  btn_back: もどる
+  btn_submit: 登録
+  leave_page: 入力内容をまだ保存しないのでも一度ご確認いただけますか？
+  many_request_title: リクエストが集中しています。
+  many_request_message: 短時間内に多くのリクエストがあったことを意味します。お手数をおかけしますが、時間をあけてから再度操作してください。
+  day: 日
+  please_choose: 選んでください
+  btn_update: 更新する
+  cancel_picker: キャセル
+  select_picker: 選択
+  btn_leave_page: 保存しない
+  btn_check_again: もう回確認
+  save_draft: 下書き保存
+  no_set: 未設定
+  server_error: システムエラーが発生しました。時間をおいてもう一度お試しください。
+  msg_facility_expried: この施設は支払われていないか、有効期限が切れています
+  gender_others: その他
+  unit_point: 点
+  title_modal_common: 実行結果
+  title_modal_confirm: 確認内容

@@ -1,0 +1,42 @@
+version: '3'
+networks:
+  laravel:
+    driver: bridge
+services:
+  nginx:
+    image: nginx:alpine
+    tty: true
+    ports:
+      - "8080:80"
+      - "443:443"
+    volumes:
+      - ./dist:/var/www
+      - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
+    depends_on:
+      - app
+    networks:
+      - laravel
+  app:
+    build: docker/app
+    volumes:
+      - ./dist:/var/www/:cached
+    working_dir: /var/www
+    # depends_on:
+    #   - db
+    networks:
+      - laravel
+
+#   nodejs:
+#     image: node:8
+#     container_name: "cms-nodejs"
+# #    user: node
+#     environment:
+#       - NODE_ENV=development
+#     volumes:
+#       - ./src:/var/www:cached
+#     working_dir: /var/www/cms
+#     expose:
+#       - "8011"
+#     tty: true
+# volumes:
+#   db-data:
